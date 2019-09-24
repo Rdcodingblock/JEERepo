@@ -14,9 +14,11 @@
 	当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
 	8.Git的版本回退速度非常快，因为Git在内部有个指向当前版本的HEAD指针，当你回退版本的时候，Git仅仅是把HEAD指回去。然后顺便把工作区的文件更新了。使用的方式git reset --hard HEAD^^（HEAD~10）（SHA码）
 	9.也可以对回退本身就行回退。回退的方式就是进行git reflog。然后在进行执行git reset --hard SHA码即可。
-	10.将本地的仓库的推送给GitHub上的仓库。
+	10.将本地的仓库的推送给GitHub上的仓库。首先需要进行关联一个远程的仓库。
+		git remove add origin "仓库的地址(存在两种的方式)"
 		推送存在两种方式。一种是ssh方式。（要事先生成ssh.pub公钥 ）另外一种就是https的方式。
-		进行的远程的推送的方式 git push origin master 在第一次的进行push的时候。需要加上-u 参数来进行初始化等等。
+		进行的远程的推送的方式 git push origin master 在第一次的进行push的时候。需要加上 -u 参数来进行初始化等等。-u参数的作用
+		Git会将本地的master分支和远程仓库的master的分支关联起来。方便之后的push。
 	
 
 
