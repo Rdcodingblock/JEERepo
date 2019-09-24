@@ -19,6 +19,9 @@
 		推送存在两种方式。一种是ssh方式。（要事先生成ssh.pub公钥 ）另外一种就是https的方式。
 		进行的远程的推送的方式 git push origin master 在第一次的进行push的时候。需要加上 -u 参数来进行初始化等等。-u参数的作用
 		Git会将本地的master分支和远程仓库的master的分支关联起来。方便之后的push。
+	11.clone 拉取center代码:
+		git clone 代码的地址。eg: git clone git@github.com:Rdcodingblock/OneDay.git 克隆一个仓库。和上面的上传一样也是存在多种的协议的。
+		https或者原生的ssh的git协议。
 	
 
 
