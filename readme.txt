@@ -16,7 +16,7 @@
 	9.也可以对回退本身就行回退。回退的方式就是进行git reflog。然后在进行执行git reset --hard SHA码即可。
 	10.将本地的仓库的推送给GitHub上的仓库。
 		推送存在两种方式。一种是ssh方式。（要事先生成ssh.pub公钥 ）另外一种就是https的方式。
-		
+		进行的远程的推送的方式 git push origin master 在第一次的进行push的时候。需要加上-u 参数来进行初始化等等。
 	
 
 
