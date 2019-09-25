@@ -1,6 +1,5 @@
-#test
-git diff
-git status
-git status
-git status
-git status
+Git的说明:
+	版本的控制系统都是进行控制文本文件的改动，并不能进行改动二进制文件的改变。所以图片音乐啥的并不能进行控制。
+#1初始化一个git仓库。git init.	
+#2关于git commit的说明。commit就是相当于一个工作区的快照，也就是工作区下所有文件的快照。当然不可能将整个目录复制一遍。
+	主要和上一个版本进行差异对比。将差异进行打包提交记录。
