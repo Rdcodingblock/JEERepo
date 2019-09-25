@@ -16,4 +16,4 @@ Git的说明:
 	当然也可以撤销对stage区域内容 git reset HEAD filename
 #5进行push到仓库需要注意的是:
 	push后是进行仓库对仓库相同的update。即使在master中更改了文件push 到没有更新的分支的时候，依然是
-	什么东西都是没有更新的。
+	什么东西都是没有更新的。在这里将master分支merger到www分支，然后进行push即可。
